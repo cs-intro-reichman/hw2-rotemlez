@@ -8,7 +8,7 @@ Great work boaz!
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-	    String cheers = args[0];
+	    String cheers = args[0].toUpperCase();
             int times = Integer.parseInt(args[1]);
             int len = cheers.length();
             int ch = 0;

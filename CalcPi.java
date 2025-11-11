@@ -8,9 +8,9 @@ public class CalcPi {
 			ch++;
 			terms = terms/10;
 		}
-		System.out.println("Pi according to java: " + Math.PI);
+		System.out.println("pi according to java: " + Math.PI);
 		String newPi = Pi.substring(0, ch) + '0' + Pi.substring(ch+1);
-		System.out.println("Pi, approximated: " + newPi);
+		System.out.println("pi, approximated: " + newPi);
 
 	}
 }
