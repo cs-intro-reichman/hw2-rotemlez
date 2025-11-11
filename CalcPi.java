@@ -4,6 +4,10 @@ public class CalcPi {
 		int terms = Integer.parseInt(args[0]);
 		String Pi = String.valueOf(Math.PI);
 		int ch = 1;
+		if (terms==1){
+			System.out.println("pi according to java: " + Math.PI);
+			System.out.println("pi, approximated:     4.0");
+		}
 		while (terms!=1){
 			ch++;
 			terms = terms/10;

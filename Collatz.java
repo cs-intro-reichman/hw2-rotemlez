@@ -6,7 +6,7 @@ public class Collatz {
 	   int seed = 4;
 	   int steps = 2;
 	   int seq=1;
-	   System.out.print(seq + " ");	
+	   System.out.print(seq + "  ");	
 	   while (seedN>=seq && mode.equals("v")){
 			while (seed!=1 ){
 				System.out.print(seed + " ");
@@ -18,7 +18,7 @@ public class Collatz {
 						}
 						steps++;
 							}
-					System.out.print(seed + " ");	
+					System.out.print(seed);	
 					System.out.println(" (" + steps + ") ");
 					seq++;
 					seed = seq;
