@@ -17,14 +17,14 @@ public class Cheers {
                         System.out.println("Give me an " + cheers.charAt(ch) + ": " + cheers.charAt(ch) + "!");
                 }
                 else{
-                     System.out.println("Give me a " + cheers.charAt(ch) + ": " + cheers.charAt(ch) + "!");   
+                     System.out.println("Give me a  " + cheers.charAt(ch) + ": " + cheers.charAt(ch) + "!");   
                 }
                 ch++;
                 len--;
             }
             System.out.println("What does the spell?");
             while (times>0){
-                System.out.println(args[0] + "!!!");
+                System.out.println(cheers + "!!!");
                 times--;
             }
         }
