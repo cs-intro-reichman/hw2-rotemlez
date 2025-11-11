@@ -10,7 +10,7 @@ public class CalcPi {
 		}
 		System.out.println("pi according to java: " + Math.PI);
 		String newPi = Pi.substring(0, ch) + '0' + Pi.substring(ch+1);
-		System.out.println("pi, approximated: " + newPi);
+		System.out.println("pi, approximated:     " + newPi);
 
 	}
 }
