@@ -22,7 +22,7 @@ public class Cheers {
                 ch++;
                 len--;
             }
-            System.out.println("What does the spell?");
+            System.out.println("What does that spell?");
             while (times>0){
                 System.out.println(cheers + "!!!");
                 times--;
