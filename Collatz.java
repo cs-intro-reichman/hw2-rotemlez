@@ -5,9 +5,9 @@ public class Collatz {
 	   String mode = args[1];
 	   int seed = 4;
 	   int steps = 2;
-	   int seq=1;
-	   System.out.print(seq + "  ");	
+	   int seq=1;	
 	   while (seedN>=seq && mode.equals("v")){
+		System.out.print(seq + " ");
 			while (seed!=1 ){
 				System.out.print(seed + " ");
 					if (seed%2==0){
