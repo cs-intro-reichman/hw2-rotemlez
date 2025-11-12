@@ -5,7 +5,7 @@ public class CalcPi {
 		double sum = 0.0;
 		double coef = 1.0;
 		for (int i=0; i<terms; i++){
-			double a = coef / (2*i+1);
+			double a = coef / (2*i + 1.0);
 			sum += a;
 			coef = -coef;
 		}
