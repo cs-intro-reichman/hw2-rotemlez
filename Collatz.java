@@ -4,14 +4,11 @@ public class Collatz {
         
         int seedN = Integer.parseInt(args[0]);
         String mode = args[1]; 
-        
 		boolean firstSeq = false;
-        
+
         for (int i = 1; i <= seedN; i++) { 
          	int seed = i; 
             int steps = 1; 
-            
-            // הדפסת האיבר הראשון
             if (mode.equals("v")) {
                 System.out.print(seed);
             }
@@ -31,23 +28,17 @@ public class Collatz {
                 }
                 
                 steps++;
-                
-                // הדפסת האיברים הנותרים
                 if (mode.equals("v")) {
                     System.out.print(" " + seed); 
                 }
             }
-            
-            // סיום הדפסת הסדרה (צעדים)
             if (mode.equals("v")) {
                 System.out.println(" (" + steps + ")");
             }
-        } // סוף הלולאה החיצונית
+        }
         
-        // הדפסת שורת הסיכום (הייתה כפילות בקוד שלך)
         if (mode.equals("c") || mode.equals("v")) { 
             System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1.");
-            // בקוד המקורי הייתה שורה כפולה כאן: System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1.");
         }
     }
 }
