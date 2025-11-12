@@ -19,6 +19,7 @@ public class Collatz {
 			{
 				seed = (3 * seed) + 1;
 				firstSeq = true;
+				steps++;
 				System.out.print(" " + seed);
 			}
             while (seed != 1) { 
